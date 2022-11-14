@@ -1,0 +1,103 @@
+body {  
+    background: #FFF;
+}
+/* CAP */
+.cap {
+    background: #FFF;    
+}
+.list {
+    list-style: none;
+}
+/* HEADER */
+.webstudio {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}            
+.studio {
+    color: #000;
+}
+.studio_1 {
+    color: #FFF;
+}
+/* Работа */
+.job {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.job:hover,
+.contact:hover {
+    color: #2196F3;
+}
+.contact {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575 ; 
+}
+/* КНОПКИ */
+.buttt:hover {
+    background-color: #2196F3;
+    color: #FFF;
+}
+.buttt {
+    font-family: roboto;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.625;
+    cursor: pointer;
+    background: #F5F4FA;
+}
+/* ФОТКИ */
+.work {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.text {
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* DNO */
+.dno {
+    background: #2F303A;
+}
+.street {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contact_2 {
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact_2:hover {
+    color: #2196F3;
+}

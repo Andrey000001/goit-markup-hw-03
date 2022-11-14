@@ -1,0 +1,152 @@
+body { 
+    background: #FFF;
+}
+
+
+/* header */
+.start {
+    background: #FFF;
+}
+.webstudio {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.studio {
+    color: #000;
+}
+.studio_1 {
+    color: #FFF;
+}
+
+
+
+/* Работа */
+.job {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.job:hover ,
+.contact_1:hover {
+    color: #2196F3;
+}
+.contact_1 {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575
+}
+.list {
+    list-style: none;
+}
+/* ЭТО УЖЕ Контент */
+.window {
+    background: #2F303A;
+}
+.big_title {
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: #FFF;
+}
+.servis {
+    font-family: roboto;
+    width: 216px;
+    height: 50px;   
+    background: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFF;
+}
+.servis:hover {
+    color: #FFF;
+}
+/* СКИЛЫ! */
+.punkt {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.text {
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Два названия */
+.sfera {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Наша команда */
+.our_team {
+    background: #F5F4FA;
+}
+.name {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.text_1 {
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* DNO */
+.dno {
+    background: #2F303A;
+}
+.dress {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contact {
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact:hover {
+    color: #2196F3;
+}
