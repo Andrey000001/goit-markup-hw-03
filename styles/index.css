@@ -1,69 +1,81 @@
-body { 
-    background: #FFF;
+body {
+    margin: 0;
 }
 
+/* HEADER-ШАПКА !!! */
 
-/* header */
-.start {
-    background: #FFF;
+.container {
+    outline: 1px solid tomato;
 }
-.webstudio {
-    font-family: 'Raleway';
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
-.studio {
-    color: #000;
-}
-.studio_1 {
-    color: #FFF;
-}
-
-
-
-/* Работа */
-.job {
+.choice {
     font-family: roboto;
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14; 
+    line-height: 1.1428;
     letter-spacing: 0.02em;
+
     color: #212121;
-}
-.job:hover ,
-.contact_1:hover {
-    color: #2196F3;
-}
-.contact_1 {
-    font-family: roboto;
+
     text-decoration: none;
+    outline: 1px solid tomato;
+}
+.contact {
+    font-family: roboto;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
-    color: #757575
+
+    text-decoration: none;
+
+color: #757575;
+
+}
+.choice:hover ,
+.contact:hover {
+    color: #2196F3;
 }
 .list {
     list-style: none;
 }
-/* ЭТО УЖЕ Контент */
-.window {
-    background: #2F303A;
+
+
+
+/* ИМЯ САЙТА  */
+.website_name {
+    font-family: relawey;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+
+    color: #2196F3;
+
+    text-decoration: none;
 }
-.big_title {
-    font-family: roboto;
+.studio {
+    color: #000;
+}
+.studioo {
+    color: #fff;
+}
+/* КНОПКА И ЗАГОЛОВОК */
+.color-butt {
+    background-color: #2F303A;
+}
+.big-title {
+    font-family: roboro;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: #FFF;
+
+
+    color: #FFFFFF;
 }
-.servis {
+
+.button-one {
     font-family: roboto;
     width: 216px;
     height: 50px;   
@@ -74,79 +86,105 @@ body {
     line-height: 1.875;
     letter-spacing: 0.06em;
     cursor: pointer;
+
     color: #FFF;
 }
-.servis:hover {
-    color: #FFF;
+.button-one:hover {
+    color: #fff;
 }
-/* СКИЛЫ! */
-.punkt {
+
+
+/* КАЧЕСТВА */
+.color-quality {
+    background-color: #F5F5F5;
+}
+.list-1 ,
+.list-2 ,
+.list-3 {
+    list-style: none;
+}
+.quality {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+
     color: #212121;
 }
 .text {
     font-family: roboto;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.714;
     letter-spacing: 0.03em;
+
     color: #757575;
 }
 
-/* Два названия */
-.sfera {
+/*subtitle */
+.color-370 {
+    background-color: #F5F5F5;;
+}
+.subtitle {
     font-family: roboto;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 1.1666;
     letter-spacing: 0.03em;
+
     color: #212121;
 }
 
-/* Наша команда */
-.our_team {
-    background: #F5F4FA;
+/* НАША КОМАНДА */
+.color-team {
+    background-color: #F5F4FA;
 }
-.name {
+.fio {
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.1875;
     letter-spacing: 0.03em;
+
     color: #212121;
 }
-.text_1 {
+.it {
     font-family: roboto;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.1875;
     letter-spacing: 0.03em;
+
     color: #757575;
 }
 
-/* DNO */
-.dno {
-    background: #2F303A;
+/* FOOTER- НИЗ */
+
+.floor {
+    background-color: #2F303A;
 }
-.dress {
+
+.streat {
     font-family: roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+
+    color: #FFF;
 }
-.contact {
+.contact-1 {
     font-family: roboto;
-    text-decoration: none;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-decoration: none;
+
     color: rgba(255, 255, 255, 0.6);
 }
-.contact:hover {
+.contact-1:hover {
     color: #2196F3;
 }
