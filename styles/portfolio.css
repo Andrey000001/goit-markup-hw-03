@@ -86,12 +86,11 @@ color: #FFF;
 }
 .text {
     font-family: roboto;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
 
-color: #757575;
+    color: #757575;
 }
 /* FOOTER- НИЗ */
 
@@ -102,7 +101,6 @@ color: #757575;
 .streat {
     font-family: roboto;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -111,7 +109,6 @@ color: #757575;
 }
 .contact-1 {
     font-family: roboto;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;

@@ -5,6 +5,9 @@ body {
 /* HEADER-ШАПКА !!! */
 
 .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     outline: 1px solid tomato;
 }
 .choice {
@@ -28,7 +31,8 @@ body {
 
     text-decoration: none;
 
-color: #757575;
+    color: #757575;
+    outline: 1px solid tomato;
 
 }
 .choice:hover ,
@@ -36,6 +40,8 @@ color: #757575;
     color: #2196F3;
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -53,6 +59,7 @@ color: #757575;
     color: #2196F3;
 
     text-decoration: none;
+    outline: 1px solid tomato;
 }
 .studio {
     color: #000;
@@ -62,9 +69,15 @@ color: #757575;
 }
 /* КНОПКА И ЗАГОЛОВОК */
 .color-butt {
+    margin-bottom: 94px;
+    text-align: center;
     background-color: #2F303A;
+    outline: 1px solid tomato;
 }
 .big-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
     font-family: roboro;
     font-weight: 900;
     font-size: 44px;
@@ -73,12 +86,23 @@ color: #757575;
 
 
     color: #FFFFFF;
+    outline: 1px solid tomato;
 }
 
 .button-one {
-    font-family: roboto;
-    width: 216px;
-    height: 50px;   
+    min-width: 216px;
+
+
+    display: inline-block;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+
+
+    font-family: roboto; 
     background: #2196F3;
     border-radius: 4px;
     font-weight: 700;
@@ -88,6 +112,7 @@ color: #757575;
     cursor: pointer;
 
     color: #FFF;
+    outline: 2px solid  tomato;
 }
 .button-one:hover {
     color: #fff;
@@ -97,11 +122,18 @@ color: #757575;
 /* КАЧЕСТВА */
 .color-quality {
     background-color: #F5F5F5;
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
 }
 .list-1 ,
 .list-2 ,
 .list-3 {
     list-style: none;
+}
+.list-1 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .quality {
     font-family: roboto;
@@ -109,22 +141,26 @@ color: #757575;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 10px;
 
     color: #212121;
 }
 .text {
     font-family: roboto;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
 
     color: #757575;
 }
 
 /*subtitle */
 .color-370 {
-    background-color: #F5F5F5;;
+    background-color: #F5F5F5;
+    margin-bottom: 94px;
 }
 .subtitle {
     font-family: roboto;
@@ -132,52 +168,75 @@ color: #757575;
     font-size: 36px;
     line-height: 1.1666;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
 
     color: #212121;
+}
+.list-2 {
+    margin-top: 0;
+    margin-left: 215px;
+    margin-right: 215px;
 }
 
 /* НАША КОМАНДА */
 .color-team {
     background-color: #F5F4FA;
 }
+.oue {
+    padding-top: 94px;
+}
 .fio {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
+    text-align: center;
 
     color: #212121;
 }
+.list-3 {
+    margin-left: 215px;
+    margin-right: 215px;
+}
 .it {
+    margin-bottom: 30px;
     font-family: roboto;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
+    text-align: center;
 
     color: #757575;
 }
+
 
 /* FOOTER- НИЗ */
 
 .floor {
     background-color: #2F303A;
 }
-
+.web {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
 .streat {
     font-family: roboto;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    
 
     color: #FFF;
 }
 .contact-1 {
     font-family: roboto;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -187,4 +246,8 @@ color: #757575;
 }
 .contact-1:hover {
     color: #2196F3;
+}
+.con {
+    display: inline-block;
+    margin-bottom: 60px;
 }
