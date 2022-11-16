@@ -1,3 +1,15 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+
+}
 body {
     margin: 0;
 }
@@ -8,10 +20,20 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     outline: 1px solid tomato;
 }
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .choice {
-    font-family: roboto;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -22,8 +44,18 @@ body {
     text-decoration: none;
     outline: 1px solid tomato;
 }
+.info {
+    display: flex;
+    margin-left: auto;
+}
+.info .contact + .contact {
+    margin-left: 50px;
+}
+
 .contact {
-    font-family: roboto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -35,21 +67,33 @@ body {
     outline: 1px solid tomato;
 
 }
+
 .choice:hover ,
 .contact:hover {
     color: #2196F3;
 }
 .list {
+    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
+}
+/* Соседи ,Last child . :not(:last child) */
+/* .list .item:last-child {
+    margin-right: 0;
+} */
+/* .list .item:not(:last-child) {
+    margin-right: 50px;
+} */
+.list .item + .item {
+    margin-left: 50px;
 }
 
 
 
 /* ИМЯ САЙТА  */
 .website_name {
-    font-family: relawey;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -61,6 +105,11 @@ body {
     text-decoration: none;
     outline: 1px solid tomato;
 }
+.name-1 {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
 .studio {
     color: #000;
 }
@@ -69,16 +118,22 @@ body {
 }
 /* КНОПКА И ЗАГОЛОВОК */
 .color-butt {
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin-bottom: 94px;
     text-align: center;
     background-color: #2F303A;
     outline: 1px solid tomato;
 }
 .big-title {
+    /* padding-top: 200px; */
+    width: 696px;
+    height: 120px;
     margin-top: 0;
     margin-bottom: 30px;
+    text-align: center;
 
-    font-family: roboro;
+    font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -102,7 +157,7 @@ body {
 
 
 
-    font-family: roboto; 
+    font-family: Roboto; 
     background: #2196F3;
     border-radius: 4px;
     font-weight: 700;
@@ -121,10 +176,7 @@ body {
 
 /* КАЧЕСТВА */
 .color-quality {
-    background-color: #F5F5F5;
     margin-bottom: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
 }
 .list-1 ,
 .list-2 ,
@@ -132,11 +184,15 @@ body {
     list-style: none;
 }
 .list-1 {
+    display: flex;
     margin-top: 0;
     margin-bottom: 0;
 }
+.item_quality + .item_quality {
+    margin-left: 30px;
+}
 .quality {
-    font-family: roboto;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -147,7 +203,7 @@ body {
     color: #212121;
 }
 .text {
-    font-family: roboto;
+    font-family: Roboto;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -159,11 +215,10 @@ body {
 
 /*subtitle */
 .color-370 {
-    background-color: #F5F5F5;
     margin-bottom: 94px;
 }
 .subtitle {
-    font-family: roboto;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -175,41 +230,39 @@ body {
     color: #212121;
 }
 .list-2 {
+    display: flex;
     margin-top: 0;
-    margin-left: 215px;
-    margin-right: 215px;
+    justify-content: space-between;
 }
 
 /* НАША КОМАНДА */
 .color-team {
+    padding-top: 94px;
     background-color: #F5F4FA;
 }
-.oue {
-    padding-top: 94px;
-}
+
 .fio {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-family: roboto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
-    text-align: center;
 
     color: #212121;
 }
 .list-3 {
-    margin-left: 215px;
-    margin-right: 215px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
 }
+
 .it {
-    margin-bottom: 30px;
-    font-family: roboto;
+    font-family: Roboto;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
-    text-align: center;
 
     color: #757575;
 }
@@ -219,14 +272,17 @@ body {
 
 .floor {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .web {
     display: inline-block;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 20px;
 }
 .streat {
-    font-family: roboto;
+    margin-bottom: 9px;
+    font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     line-height: 1.714;
@@ -236,7 +292,9 @@ body {
     color: #FFF;
 }
 .contact-1 {
-    font-family: roboto;
+    margin-bottom: 9px;
+    display: block;
+    font-family: Roboto;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -247,7 +305,4 @@ body {
 .contact-1:hover {
     color: #2196F3;
 }
-.con {
-    display: inline-block;
-    margin-bottom: 60px;
-}
+
