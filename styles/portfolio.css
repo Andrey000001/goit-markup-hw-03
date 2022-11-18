@@ -13,17 +13,20 @@ li{
     margin: 0;
     padding: 0;
 }
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 /* HEADER-ШАПКА !!! */
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
 
 .container{
+    outline: 1px solid tomato;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -146,49 +149,43 @@ img {
 }
 
 /* 9 ФОТО ,НАЗВАНИЕ */
-.text-quality {
-    background-color: #FFFFFF;}
+
 .list-2 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.item {
     outline: 1px solid tomato;
+    flex-basis: calc(100% / 3 - -20px);
+    margin-left: 20px;
+    margin-top: 20px;
 }
-
-.card {
-    display: flex;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+.h3_p {
+    padding: 20px 24px;
 }
-
-.quality {
-    display: flex;
-    font-family: roboto;
+.hthree {
+    font-family: Roboto;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
     letter-spacing: 0.06em;
 
     color: #212121;
 }
 .text {
-    display: flex;
-    font-family: roboto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
-.h3_p { 
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 
 /* FOOTER- НИЗ */
 
