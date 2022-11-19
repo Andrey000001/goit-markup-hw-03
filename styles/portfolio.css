@@ -11,6 +11,10 @@ li{
     margin: 0;
     padding: 0;
 }
+:root {
+    --color:#2196F3;
+    --white: #FFF;
+}
 
 /* HEADER-ШАПКА !!! */
 .page-header {
@@ -79,7 +83,7 @@ li{
 }
 .choice:hover ,
 .contact:hover {
-    color: #2196F3;
+    color: var(--color);
 }
 .list,
 .list-1 ,
@@ -94,7 +98,7 @@ li{
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--color);
 
     text-decoration: none;
 }
@@ -102,7 +106,7 @@ li{
     color: #000;
 }
 .studioo {
-    color: #fff;
+    color: var(--white);
 }
 
 
@@ -115,8 +119,8 @@ li{
     padding-bottom: 94px;
 }
 .but:hover {
-    background-color: #2196F3;
-    color: #FFF;
+    background-color: var(--color);
+    color: var(--white);
 }
 
 .list-1 {
@@ -162,8 +166,8 @@ li{
     
 }
 .item_photo {
-    background: #FFFFFF;
-border: 1px solid #EEEEEE;
+    background: var(--white);
+    border: 1px solid #EEEEEE;
 }
 .h3_p {
     padding: 20px 24px;
@@ -203,7 +207,7 @@ border: 1px solid #EEEEEE;
     line-height: 1.714;
     letter-spacing: 0.03em;
 
-    color: #FFF;
+    color:  var(--white);
 }
 .contact-1 {
     display: block;
@@ -216,7 +220,7 @@ border: 1px solid #EEEEEE;
     color: rgba(255, 255, 255, 0.6);
 }
 .contact-1:hover {
-    color: #2196F3;
+    color: var(--color);
 }
 
 .web {

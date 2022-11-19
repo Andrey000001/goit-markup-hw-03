@@ -10,10 +10,10 @@ ul{
     padding: 0;
 
 }
-body {
-    margin: 0;
+:root {
+    --color: #2196F3;
+    --family: Roboto;
 }
-
 /* HEADER-ШАПКА !!! */
 
 .container {
@@ -32,7 +32,7 @@ body {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -54,7 +54,7 @@ body {
 .contact {
     padding-top: 32px;
     padding-bottom: 32px;
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -69,7 +69,7 @@ body {
 
 .choice:hover ,
 .contact:hover {
-    color: #2196F3;
+    color:  var(--color);
 }
 .list {
     display: flex;
@@ -99,7 +99,7 @@ body {
     letter-spacing: 0.03em;
 
 
-    color: #2196F3;
+    color: var(--color);
 
     text-decoration: none;
     outline: 1px solid tomato;
@@ -132,7 +132,7 @@ body {
     margin-bottom: 30px;
     text-align: center;
 
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -156,8 +156,8 @@ body {
 
 
 
-    font-family: Roboto; 
-    background: #2196F3;
+    font-family: var(--family); 
+    background: var(--color);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
@@ -195,7 +195,7 @@ body {
     margin-left: 30px;
 }
 .quality {
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -206,7 +206,7 @@ body {
     color: #212121;
 }
 .text {
-    font-family: Roboto;
+    font-family: var(--family);
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -221,7 +221,7 @@ body {
     padding-bottom: 94px;
 }
 .subtitle {
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -261,7 +261,7 @@ body {
 .fio {
     margin-bottom: 10px;
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -275,7 +275,7 @@ body {
 
 .it {
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--family);
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
@@ -298,7 +298,7 @@ body {
 }
 .streat {
     margin-bottom: 9px;
-    font-family: Roboto;
+    font-family: var(--family);
     font-style: normal;
     font-size: 14px;
     line-height: 1.714;
@@ -309,7 +309,7 @@ body {
 }
 .contact-1 {
     display: block;
-    font-family: Roboto;
+    font-family: var(--family);
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -321,6 +321,6 @@ body {
     margin-top: 9px;
 }
 .contact-1:hover {
-    color: #2196F3;
+    color: var(--color);
 }
 
