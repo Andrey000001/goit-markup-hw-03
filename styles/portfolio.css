@@ -14,11 +14,7 @@ li{
     padding: 0;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* HEADER-ШАПКА !!! */
 .page-header {
@@ -27,7 +23,7 @@ img {
 
 .container{
     outline: 1px solid tomato;
-    max-width: 1200px;
+    max-width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -46,9 +42,7 @@ img {
 .list {
     display: flex;
 }
-.item + .item {
-    margin-left: 50px;
-}
+
 .choice {
     display: block;
     padding-top: 32px;
@@ -114,6 +108,7 @@ img {
 
 
 /* КНОПКИ */
+
 .cont_main {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -150,20 +145,25 @@ img {
 
 /* 9 ФОТО ,НАЗВАНИЕ */
 
+.item {
+    width:calc((100 - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+.item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
 .list-2 {
-    padding: 0;
-    margin: 0;
+    outline: 1px silid tomato;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -20px;
-    margin-top: -20px;
+    flex-wrap:  wrap;
 }
 .item {
     outline: 1px solid tomato;
-    flex-basis: calc(100% / 3 - -20px);
-    margin-left: 20px;
-    margin-top: 20px;
+
 }
 .h3_p {
     padding: 20px 24px;
