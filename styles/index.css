@@ -178,6 +178,9 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.item_quality {
+    width: 270px;
+}
 .list-1 ,
 .list-2 ,
 .list-3 {

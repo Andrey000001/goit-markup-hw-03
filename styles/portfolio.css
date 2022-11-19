@@ -1,6 +1,4 @@
-body {
-    margin: 0;
-}
+
 h1,
 h2,
 h3,
@@ -14,8 +12,6 @@ li{
     padding: 0;
 }
 
-
-
 /* HEADER-ШАПКА !!! */
 .page-header {
     border-bottom: 1px solid #ECECEC;
@@ -23,7 +19,7 @@ li{
 
 .container{
     outline: 1px solid tomato;
-    max-width: 1230px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -39,8 +35,12 @@ li{
     padding-bottom: 25px;
     margin-right: 94px;
 }
+
 .list {
     display: flex;
+}
+.item + .item {
+    margin-left: 50px;
 }
 
 .choice {
@@ -56,6 +56,7 @@ li{
     color: #212121;
     text-decoration: none;
 }
+
 .contact {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -109,7 +110,7 @@ li{
 
 /* КНОПКИ */
 
-.cont_main {
+.button_fon {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -117,13 +118,12 @@ li{
     background-color: #2196F3;
     color: #FFF;
 }
-.button_fon {
-    margin-bottom: 50px;
-}
+
 .list-1 {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .knopki + .knopki {
     margin-left: 8px;
@@ -145,14 +145,12 @@ li{
 
 /* 9 ФОТО ,НАЗВАНИЕ */
 
-.item {
-    width:calc((100 - 60px) / 3);
-    margin-right: 30px;
-    margin-bottom: 30px;
+.item_photo {
+    width:calc((100% - 60px) / 3);
+   
 }
 
-
-.item:nth-last-child(-n + 3) {
+.item_photo:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
 .list-2 {
@@ -160,10 +158,12 @@ li{
     list-style: none;
     display: flex;
     flex-wrap:  wrap;
+    gap: 30px;
+    
 }
-.item {
-    outline: 1px solid tomato;
-
+.item_photo {
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
 }
 .h3_p {
     padding: 20px 24px;
@@ -220,6 +220,7 @@ li{
 }
 
 .web {
+    display: block;
     margin-bottom: 20px;
 }
 .contact-1 + .contact-1 {
